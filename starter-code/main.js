@@ -20,5 +20,24 @@ var createCards = function{
       }
 }
 
+var cards = [queen, queen, king, king];
+var cardsInPlay = [];
 
+for (var i = 0; i < cards.length; i++){
+
+  cardElement.setAttricbute('data-card', cards[i]);
+}
+
+
+for (vari=0; i<cards.length; i++){
+  cardElement.addEventListener('click', isTwoCards)
+}
+
+var isMatch = function(){
+
+}
+
+var isTwoCards = function(){
+
+}
 
